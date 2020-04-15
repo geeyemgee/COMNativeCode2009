@@ -1,0 +1,37 @@
+// JComp.idl : IDL source for JComp
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (JComp.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(FC8B7781-5A9A-42BE-9F0D-93DCA62EE8C9),
+	dual,
+	nonextensible,
+	helpstring("ITest Interface"),
+	pointer_default(unique)
+]
+interface ITest : IDispatch{
+	[id(1), helpstring("method Yell2")] HRESULT Yell2(BSTR str);
+};
+[
+	uuid(08BA929C-0985-4682-A2AF-ACD5046A6FB5),
+	version(1.0),
+	helpstring("JComp 1.0 Type Library")
+]
+library JCompLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(862B12DC-4C45-4C9E-92DD-7DF8AD73B715),
+		helpstring("Test Class")
+	]
+	coclass Test
+	{
+		[default] interface ITest;
+	};
+};
