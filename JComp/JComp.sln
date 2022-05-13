@@ -1,9 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JComp", "JComp\JComp.vcproj", "{BCB32E64-976F-461E-9860-FE9F4B7E3B91}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JComp", "JComp\JComp.vcxproj", "{BCB32E64-976F-461E-9860-FE9F4B7E3B91}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCompCaller", "..\JCompCaller\JCompCaller.vcproj", "{5D85C68F-BA6B-475B-9126-CB416BF014DA}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JCompCaller", "..\JCompCaller\JCompCaller.vcxproj", "{5D85C68F-BA6B-475B-9126-CB416BF014DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JCompCallerCS", "JCompCallerCS\JCompCallerCS.csproj", "{D2B0C7A2-D9A0-4B16-A229-B11560A38AB9}"
 EndProject
@@ -50,5 +52,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE316067-8F84-4B58-A7EF-33CD622DC8B1}
 	EndGlobalSection
 EndGlobal

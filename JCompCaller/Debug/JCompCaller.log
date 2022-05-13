@@ -1,0 +1,5 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  testmain.cpp
+C:\Users\DELL\Training\COMNativeCode2009\JCompCaller\testmain.cpp(33): warning C4715: 'CallVtableWithStaticCLSID': not all control paths return a value
+testmain.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  JCompCaller.vcxproj -> C:\Users\DELL\Training\COMNativeCode2009\JComp\Debug\JCompCaller.exe

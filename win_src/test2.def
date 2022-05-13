@@ -1,0 +1,10 @@
+; Filename :- test2.def
+;------------ Name of the Library
+LIBRARY test2
+
+;------------ List of exported functions
+EXPORTS
+    Add
+    Sub
+    Mul
+    Div
